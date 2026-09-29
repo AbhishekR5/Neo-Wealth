@@ -152,6 +152,7 @@ document.querySelector('#app').innerHTML = `
         <a href="#process">How it works</a>
         <a href="#services">Services</a>
         <a href="#contact">Contact</a>
+        <a class="mobile-nav-cta" href="#process">Get started</a>
       </nav>
 
       <a class="button button--small header-cta" href="#process">Get started</a>
