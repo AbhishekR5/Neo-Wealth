@@ -1,5 +1,3 @@
-import './styles.css';
-
 const icon = (name) => {
   const icons = {
     support: `
