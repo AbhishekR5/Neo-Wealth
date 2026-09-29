@@ -167,6 +167,10 @@ a:focus-visible {
   color: #fff;
 }
 
+.mobile-nav-cta {
+  display: none;
+}
+
 .nav-toggle {
   display: none;
   width: 44px;
@@ -1171,17 +1175,6 @@ a:focus-visible {
     transition: transform 180ms ease, opacity 180ms ease;
   }
 
-  .primary-nav::after {
-    content: "Get started";
-    margin-top: 0.3rem;
-    padding: 0.78rem 1rem;
-    border-radius: 12px;
-    text-align: center;
-    font-weight: 760;
-    color: #173e3a;
-    background: var(--gold);
-  }
-
   .primary-nav.is-open {
     transform: translateY(0);
     opacity: 1;
@@ -1196,6 +1189,15 @@ a:focus-visible {
   .primary-nav a:hover {
     color: var(--teal-900);
     background: #f2f0e9;
+  }
+
+  .primary-nav .mobile-nav-cta {
+    display: block;
+    margin-top: 0.3rem;
+    text-align: center;
+    font-weight: 760;
+    color: #173e3a;
+    background: var(--gold);
   }
 
   .hero {
